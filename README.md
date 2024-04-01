@@ -8,15 +8,28 @@ Based on:
 https://github.com/youknowone/rust-xcode-langspec
 https://github.com/steventroughtonsmith/lua-xclangspec
 
-If your Xcode UUID is not listed [here](https://github.com/BrainiumLLC/rust-xcode-plugin/blob/master/Plug-ins/Rust.ideplugin/Contents/Info.plist), please make an issue (or a pull request!) and we'll add it.
+## Installation:
+
+```
+sudo ./setup.sh
+```
+
+You may have to quit and reopen Xcode once or twice and click the `Load Bundle` button in a popup that should appear automatically.
+
+## For Xcode 15.3 and higher: 
+
+If your Xcode Version is not listed [here](./Plug-ins/Rust.ideplugin/Contents/Info.plist) (section `DTXcodeBuildCompatibleVersions`), please make an issue (or a pull request!) and we'll add it.
+
+The version is in the Xcode->About.
+
+## Older Xcodes:
+
+If your Xcode UUID is not listed [here](./Plug-ins/Rust.ideplugin/Contents/Info.plist) (section `DVTPlugInCompatibilityUUIDs`), please make an issue (or a pull request!) and we'll add it.
 
 You can check your UUID with this command:
 ```sh
 $ defaults read /Applications/Xcode.app/Contents/Info DVTPlugInCompatibilityUUID
 ```
-Once the UUID is added, execute the `setup.sh` script
-
-You may have to quit and reopen Xcode once or twice and click the `Load Bundle` button in a popup that should appear automatically.
 
 ## Manual Install
 Place the `Plug-ins` folders in `~/Library/Developer/Xcode`
