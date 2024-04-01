@@ -22,6 +22,10 @@
 	<array>
 		<string>MacOSX</string>
 	</array>
+	<key>DTXcodeBuildCompatibleVersions</key>
+	<array>
+		<string>15E204a</string>
+	</array>
 	<key>DVTPlugInCompatibilityUUIDs</key>
 	<array>
 		<string>B89EAABF-783E-4EBF-80D4-A9EAC69F77F2</string>
