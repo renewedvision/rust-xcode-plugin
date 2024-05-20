@@ -25,6 +25,7 @@
 	<key>DTXcodeBuildCompatibleVersions</key>
 	<array>
 		<string>15E204a</string>
+		<string>15F31d</string>
 	</array>
 	<key>DVTPlugInCompatibilityUUIDs</key>
 	<array>
