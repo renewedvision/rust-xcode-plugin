@@ -20,7 +20,10 @@ You may have to quit and reopen Xcode once or twice and click the `Load Bundle` 
 
 If your Xcode Version is not listed [here](./Plug-ins/Rust.ideplugin/Contents/Info.plist) (section `DTXcodeBuildCompatibleVersions`), please make an issue (or a pull request!) and we'll add it.
 
-The version is in the Xcode->About.
+The version is in the Xcode -> About. Alternatively, you can check your UUID with this command:
+```sh
+defaults read /Applications/Xcode.app/Contents/Info DTXcodeBuild
+```
 
 ## Older Xcodes:
 
@@ -28,7 +31,7 @@ If your Xcode UUID is not listed [here](./Plug-ins/Rust.ideplugin/Contents/Info.
 
 You can check your UUID with this command:
 ```sh
-$ defaults read /Applications/Xcode.app/Contents/Info DVTPlugInCompatibilityUUID
+defaults read /Applications/Xcode.app/Contents/Info DVTPlugInCompatibilityUUID
 ```
 
 ## Manual Install
