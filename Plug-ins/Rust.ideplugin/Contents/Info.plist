@@ -30,6 +30,9 @@
 		<string>16B40</string>
 		<string>16C5032</string>
 		<string>16E139</string>
+		<!--XCode 26.0 shows 2 IDs-->
+		<string>17A323</string>
+		<string>17A324</string>
 	</array>
 	<key>DVTPlugInCompatibilityUUIDs</key>
 	<array>
