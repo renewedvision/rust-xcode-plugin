@@ -40,9 +40,9 @@
 		<!--XCode 26.2 shows 2 IDs-->
 		<string>17C51</string>
 		<string>17C52</string>
-		!--XCode 26.3 shows 2 IDs-->
+		<!--XCode 26.3 shows 2 IDs-->
 		<string>17C529</string>
-		!--XCode 26.4 shows 2 IDs-->
+		<!--XCode 26.4 shows 2 IDs-->
 		<string>17E191</string>
 		<string>17E192</string>
 	</array>
